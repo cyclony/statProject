@@ -58,7 +58,7 @@ for x, y in zip(X, Y1):
     if y != 0:
         ax2.text(x + 0.3, y, '%.3f' % y, fontsize='8', ha='center', va='bottom')
 for x, y in zip(X, Y2):
-    if y!= 0:
+    if y != 0:
         ax2.text(x + 0.3, y, '%.3f' % y, fontsize='8', ha='center', va='bottom')
 
 ax3 = fig.add_subplot(2, 2, 3)
